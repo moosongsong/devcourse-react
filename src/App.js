@@ -1,8 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import React, {useState} from "react";
-import {ProductList} from "./ProductList";
-import {Summary} from "./Summary";
+import {ProductList} from "./component/ProductList";
+import {Summary} from "./component/Summary";
 
 function App() {
     const [products, setProducts] = useState([
