@@ -7,7 +7,7 @@ export function ProductList({products = [], onAddClick}) {
             <h5 className="flex-grow-0"><b>상품 목록</b></h5>
             <ul className="list-group products">
                 {products.map(item =>
-                    <li key={item.id} className="list-group-item d-flex mt-3">
+                    <li key={item.productId} className="list-group-item d-flex mt-3">
                         <Product {...item} onAddClick={onAddClick}/>
                     </li>
                 )}
